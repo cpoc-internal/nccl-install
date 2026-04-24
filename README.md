@@ -14,3 +14,10 @@ please use root to install nccl
    chmod +x /root/nccl-install/nccl-install.sh
   sudo -u root /root/nccl-install/nccl-install.sh
  ```
+
+3. Run the shell script to install the nccl test without accessing the folder, run this as ROOT cuda-13.0
+
+  ```
+   chmod +x /root/nccl-install/nccl-install-13.0.sh
+  sudo -u root /root/nccl-install/nccl-install-13.0.sh
+ ```
